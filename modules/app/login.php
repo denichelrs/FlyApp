@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
     <title>LogIn</title>
 </head>
 <body class="justify-content-center">
@@ -13,7 +13,7 @@
 
     <h1>LogIn</h1>
      <span>or <a href="signup.php">SignUp</a></span>
-    <form action="validate.php" method="post" onsubmit="validateForm()">
+    <form action="home.php" method="post" onsubmit="validateForm()">
 
         <div class="form-floating mb-3 mt-3 mx-auto w-25">
             <input type="email" name="login_email" class="form-control" placeholder="name@example.com" id="input-email">
