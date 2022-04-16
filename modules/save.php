@@ -15,7 +15,8 @@
     	die('Query failed,');
 	}
 
-    header('Location: ../../');
+    header('Location: ../');
 
 
  ?>
+ 

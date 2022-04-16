@@ -19,5 +19,7 @@
         <a href="modules/app/signup.php">SignUp</a>
     </div>
 
+    <h3>Go to the api page <a href="api/index.php">APP</a></h3>
+
 </body>
 </html>

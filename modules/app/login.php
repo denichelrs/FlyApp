@@ -9,11 +9,11 @@
 </head>
 <body class="justify-content-center">
 
-    <?php require '../header/header.php'; ?>
+    <?php require '../../header/header.php'; ?>
 
     <h1>LogIn</h1>
      <span>or <a href="signup.php">SignUp</a></span>
-    <form action="home.php" method="post" onsubmit="validateForm()">
+    <form action="../../api/index.php" method="post" onsubmit="validateForm()">
 
         <div class="form-floating mb-3 mt-3 mx-auto w-25">
             <input type="email" name="login_email" class="form-control" placeholder="name@example.com" id="input-email">
